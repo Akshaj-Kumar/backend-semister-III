@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     } catch (error) {
         // res.status(500).json({success:false, message: "Something went wrong!"});
         next(error);   
-        // pass the error to thr error handling middleware
+        
     }
 });
 
