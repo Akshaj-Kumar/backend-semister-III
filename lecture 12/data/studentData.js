@@ -6,4 +6,5 @@
     { rollNo: 5, name: "Daulat", section: "BCA-D" }
 ];
 
-module.exports=students
+module.exports=students  
+
