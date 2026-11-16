@@ -13,6 +13,7 @@ const students = [
     { rollNo: 5, name: "Daulat", section: "BCA-D" }
 ];
 
+
 // Read Operation
 app.get("/students", (req, res) => {
     res.json(students);
